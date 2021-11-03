@@ -23,8 +23,6 @@ export default class Action extends React.Component {
             attrs.rel = [(newWindow ? 'noopener' : ''), (noFollow ? 'nofollow' : '')].filter(Boolean).join(' ');
         }
         return (
-            <a mp-mode="dftl" href="https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=2c9380847cc4c817017cdf463d3d13da" name="MP-payButton" class='blue-ar-l-rn-none'>Suscribirme</a>
-<script type="text/javascript">
    (function() {
       function $MPC_load() {
          window.$MPC_loaded !== true && (function() {
